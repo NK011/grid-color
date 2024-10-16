@@ -1,0 +1,29 @@
+.cell {
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* .cell:hover {
+    animation: hinder .4s linear infinite alternate;
+} */
+
+@keyframes hinder {
+    0% {
+        transform: rotateZ(0deg); /* Corrected angle format */
+    }
+    20% {
+        transform: rotateZ(4deg); /* Corrected angle format */
+    }
+    40% {
+        transform: rotateZ(-3deg); /* Corrected angle format */
+    }
+    60% {
+        transform: rotateZ(2deg); /* Corrected angle format */
+    }
+    100% {
+        transform: rotateZ(0deg); /* Corrected angle format */
+    }
+}
